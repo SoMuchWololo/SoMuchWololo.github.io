@@ -29,7 +29,7 @@ a:link, a:visited, a:active {
 body {
     background-image: url(binario.jpg); 
     background-size: cover ;
-    background-color: var(--offwhite-color);
+    background-color: var(--black-color);
 }
 
 
