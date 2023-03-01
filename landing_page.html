@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css"></link>
+    
+</head>
+<body>
+    <!--Barra Superior con conexion al resto de la pagina-->
+    <nav>
+        <div class="logo">
+            <h3 class="presentacion" id="nombre">Juan Ignacio Machado</h3>
+            <h3 class="presentacion">"So Much Wololo"</h3>
+            <h6 class="presentacion">A Developer</h6>
+        </div>
+        <div class="barnav" id="barra_superior">   
+            <a href="#sobre_mi"><div>Sobre Mi</div></a>
+            <a href="#cursos_y_portafolio"><div>Cursos / Portafolio</div></a>
+            <a href="#contacto"><div>Contacto</div></a>
+        </div>
+    </nav>
+    
+    <!--Sobre mi, info y otros-->
+    <div class="sobre_mi espacio" id="sobre_mi">
+        <h2 class="titulo">Sobre mi</h2>
+        <p id="texto-sobre-mi">Soy un programador esporadico,
+        siempre buscando nuevas cosas para hacer en mis tiempos libres.
+        Nulla facilisi. Aenean neque eros, maximus nec enim eu, dapibus tristique urna. 
+        Aenean malesuada orci sapien, eget posuere tortor ultricies sed. Nullam nec ante vel
+        ex molestie laoreet vel ac purus. Aliquam condimentum, tortor eu condimentum elementum,
+        quam ante dictum enim, id ultrices lacus ex ac ipsum. Praesent cursus, sapien at bibendum 
+        ultricies, elit elit rhoncus sem, ut luctus nisl odio at nulla. Cras magna tellus, pellentesque 
+        sed bibendum et, cursus eget massa. Quisque ante metus, accumsan a vulputate sed, luctus a orci. Praesent 
+        vel eros ac odio consequat tempus et ac justo. Fusce interdum sapien justo, id semper nisl euismod ac. Nulla 
+        quis lacus non ante facilisis auctor eu eu nisi. Nam id orci felis. Donec ac lacinia lacus. Nunc at euismod neque. 
+        Praesent vestibulum tellus sed purus porttitor, quis dictum arcu cursus. Mauris aliquet molestie velit sit amet dignissim.</p>
+    </div>
+
+    <!--Cursos, portafolio y demas-->
+    <div  class="cursos espacio" id="cursos_y_portafolio">
+        <h2 class="titulo">Cursos Realizados</h2>
+        <section class="carousel">
+            <div class="carousel__container">
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Responsive Web Design.jpg" alt="Responsive Web Design">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Ecmascript 6+.jpg" alt="Ecmascript 6+">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Asincronismo con Javascript.jpg" alt="Asincronismo en Javascript">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Fundamentos de Javascript.jpg" alt="Fundamentos de Javascript">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Web Components con Javascript.jpg" alt="Web Components con Javascript">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Manipulacion del DOM.jpg" alt="Manipulacion del DOM">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Basico de Javascript.jpg" alt="Basico de Javascript">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Frontend Developer.jpg" alt="Frontend Developer">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Prework Configuracion de Entorno de Desarollo en Windows.jpg" alt="Prework Configuracion de Entorno de Desarollo en Windows">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Programacion Basica.jpg" alt="Programacion Basica">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Profesional de Diseño de Videojuegos.jpg" alt="Profesional de Diseño de Videojuegos">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-item__img" src="Cursos/Administracion de Actividades con Trello.jpg" alt="Administracion de Actividades con Trello">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--Portafolio-->
+
+    <div class="portafolio espacio">
+    <h2 class="titulo">Portafolio</h2>
+        <div>
+            <img src="Iconos/aqui-colocaria-mi-portafolio-si-tuviera-uno-sin-texto.jpg" class="img-portafolio"/>
+        </div>
+    </div>
+
+    <!--Informacion de contacto-->
+    <h2 class="titulo">Contacto</h2>
+    <div class="contacto" id="contacto">
+        
+        <div class="caja"> 
+            <p class="texto-icono"><img class="icono" src="Iconos/E-mail icono.png"/> randommail@gmail.com</p>
+        </div>
+        <div class="caja">
+            <p class="texto-icono"><img class="icono" src="Iconos/Whatsapp icono.png"/> +54 9 297 555-4444</di>
+        </div>
+        <div class="caja">
+            <p class="texto-icono"><img class="icono" src="Iconos/Discord icono.png"/> Random#5544</p>
+        </div>
+        <div class="caja">
+            <a class="texto-icono" href="https://github.com/SoMuchWololo" target="_blank"><img class="icono" src="Iconos/Git hub icono.png"/> SoMuchWololo</a>
+        </div>
+    </div>
+
+    <script src="landing_page.js"></script>
+    
+</body>
+</html>
